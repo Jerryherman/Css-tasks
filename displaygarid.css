@@ -1,0 +1,47 @@
+body{
+    background-color: rgb(85, 107, 47);
+}
+.container{
+    height: 1000px;
+    border: 5px solid black;
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    grid-template-rows: 200px 200px 200px;
+    column-gap: 10px;
+    row-gap: 10px;
+    justify-content: left;
+    align-content: space-between;
+}
+.para1{
+    grid-column: 1/4;
+}
+.para2{
+    grid-row: -3/-1;
+}
+.para1{
+    background-color: blue;
+}
+.para2{
+    background-color: yellow;
+}
+.para3{
+    background-color:green;
+}
+.para4{
+    background-color: goldenrod;
+}
+.para5{
+    background-color: cyan;
+}
+.para6{
+    background-color: darkgoldenrod;
+}
+.para7{
+    background-color: darkturquoise;
+}
+.para8{
+    background-color: darkslateblue;
+}
+.para9{
+    background-color: fuchsia;
+}

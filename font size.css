@@ -1,0 +1,13 @@
+
+.section{
+    font-family: 'Ephesis', cursive;
+    font-size: 2em;
+    color: #0b0bfa81;
+    white-space: pre;
+}
+h1{
+    text-shadow: 2px 1px #230108;
+    font-size: 40px;
+    color: #00ffff;
+    text-align: center;
+}

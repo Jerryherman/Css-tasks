@@ -1,0 +1,18 @@
+.box{
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    background-color: greenyellow;
+    transition-duration: 10s;
+    transition-timing-function: ease;
+    
+}
+.box:hover{
+    background-color: blueviolet;
+    width: 700px;
+    background-image: url(https://cdn.pixabay.com/photo/2015/10/30/20/13/sunrise-1014712_1280.jpg);
+    border-radius: 60px;
+    transform: skew(360deg);
+    height: 500px;
+
+}

@@ -1,0 +1,26 @@
+.container{
+    background-color: yellow;
+    display: grid;
+    grid-template-rows: 20vh 40vh 20vh;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 20px;
+    grid-template-areas: "h h h h h"
+                          "sb1 menu menu menu sb2"
+                           "f f f f f";
+}
+.header{
+    grid-area: h;
+    background-color: aqua;
+}
+.sidebar1{
+    grid-area: sb1;
+    background-color: blue;
+}
+.sidebar2{
+    grid-area: sb2;
+    background-color: green;
+}
+.menubar{
+    grid-area: menu;
+    background-color: brown;
+}

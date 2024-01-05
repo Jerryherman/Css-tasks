@@ -1,0 +1,23 @@
+p::after{
+    content: "Sathish";
+}
+P::before{
+    content: "Karan";
+}
+p::selection{
+    color: blue;
+    background-color: cadetblue;
+}
+p::first-line{
+    color: blueviolet;
+    font-size: small;
+}
+p::first-letter{
+    color: chocolate;
+    font-size: large;
+}
+input::placeholder{
+    color: chartreuse;
+    size: 10px;
+}
+

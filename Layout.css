@@ -1,0 +1,29 @@
+.Header{
+    background-color:green;
+    width: 100%;
+    height: 200px;
+    }
+.Menu{
+    background-color: yellow;
+    width: 20%;
+    float: left;
+    height: 200px;
+}
+.aside{
+    background-color: lightgreen;
+    width: 30%;
+    float: left;
+    height: 200px;
+}
+.contact{
+    background-color:black;
+    width: 50%;
+    float: right;
+    height: 200px;
+}
+.foot{
+    background-color: brown;
+    width: 100%;
+    float: left;
+    height: 200px;
+}

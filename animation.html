@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .round{
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            animation-name: play;
+            animation-duration: 5s;
+            animation-iteration-count: 20;
+            animation-timing-function: linear;
+            position: relative;
+            border-bottom-style: double;
+        }
+        @keyframes play{
+            from{
+                transform: rotate(0deg);
+            }
+            to{
+                transform: rotate(360deg)
+            }
+            0%{
+                background-color: cornflowerblue;
+                top: 10px;
+                left: 200px;
+            }
+            25%{
+                width: 300px;
+                height: 300px;
+                background-color: chartreuse;
+                top: 100px;
+                left: 100px;
+            }
+            50%{
+                width: 400px;
+                height: 400px;
+                background-color: red;
+                top: 500px;
+                left: 100px;
+            }
+            75%{
+                width: 600px;
+                height: 600px;
+                background-color: darkgreen;
+                top: 600px;
+                left: 200px;
+            }
+            100%{
+                background-color: crimson;
+                top: 100px;
+                left: 700px;
+            }
+
+
+        }
+    </style>
+</head>
+<body>
+    <div class="round"></div>
+</body>
+</html>

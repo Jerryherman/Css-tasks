@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            display: grid;
+            grid-template-columns: repeat(6,1fr);
+            grid-template-rows: 50px 50px 50px 70px;
+            gap: 10px;
+            background-color: white;
+
+            
+        }
+        div{
+            background-color: aqua;
+           
+        }
+        .Header{
+            display:grid ;
+            justify-content: center;
+            align-content: center;
+            grid-column: span 6;
+            background-color: skyblue;
+        }
+        .Navigation{
+            display:grid ;
+            justify-content: center;
+            align-content: center;
+            background-color: green;
+            grid-column:span 6;
+        }
+        .Aside{
+            display:grid ;
+            justify-content: center;
+            align-content: center;
+            grid-row: span 3;
+        }
+        .Content{
+            display:grid ;
+            justify-content: center;
+            align-content: center;
+            grid-column: span 3;
+            background-color: lightblue;
+        }
+        .Section{
+            display:grid ;
+            justify-content: center;
+            align-content: center;
+            grid-column: span 3;
+            
+        }
+        
+        .footer{
+            display:grid ;
+            justify-content: center;
+            align-content: center;
+            grid-column: span 6;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="Header">Header</div>
+        <div class="Navigation">Navigation</div>
+        <div class="Aside">Aside</div>
+        <div class="Content">Content</div>
+        <div class="Section">Section</div>
+        <div class="footer">footer</div>
+    </div>
+    
+</body>
+</html>
